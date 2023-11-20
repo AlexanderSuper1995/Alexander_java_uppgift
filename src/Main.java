@@ -16,10 +16,10 @@ System.out.println("skiv in text rad för rad. skiv stop för att avsluta.");
             System.out.println("Antal rader (exklusive 'stop'): " + antalRader);
             System.out.println("Antal tecken (exklusive 'stop'): " + antalTecken);
         }
-
+// test git
 
         scanner.close();
-
+// teest för git
     }
 
 
