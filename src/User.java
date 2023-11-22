@@ -1,11 +1,21 @@
 import java.util.Scanner;
 
-public class User {
+public class User
+{
     public String getUserInput() {
+
+  System.out.println("Skriv in text rad för rad. Skriv 'stop' för att avsluta.");
+  System.out.print("Skriv in något: ");
+
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Skriv in något: ");
         String input = scanner.nextLine();
-        scanner.close();
+       scanner.nextLine();
+      scanner.close();
         return input;
+
+
+        }
+
     }
-}
+
+
