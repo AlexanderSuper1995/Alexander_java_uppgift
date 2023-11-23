@@ -13,7 +13,7 @@ Del 2 – fortsättning 1 - G
  Programmet skall bestå av två klasser:
   En klass som läser in text och skriver ut
 resultatet till användaren
-# nästan klar
+#   är klar
 
   En annan klass som räknar raderna och har
 koll på antalet tecken
@@ -23,15 +23,15 @@ koll på antalet tecken
 har skrivit ordet stop eller inte får utföras i
 vilken av klasserna man vill
 Del 2 – fortsättning 2 - G
-# nästan  klar
+#  är klar men bör bli flytat till USer klassen 
 
   Till programmet skall minst tre Junit-testfall
 skrivas
-# inte klar
+# inte klarjag  nog blir nog på lördag
 
   Testfallen skall skilja sig märkvärt åt och testa
 olika delar av programmet
-# inte klar
+# inte klar jag  nog blir nog på lördag
 
   Programmet skall versionshanteras och finnas
 tillgängligt på Github.
@@ -39,4 +39,4 @@ tillgängligt på Github.
 
   Endast länk till ditt repo med koden behöver
 lämnas in för del 2
-# är klar 
+# är klar
