@@ -11,8 +11,8 @@ public class logik {
         return antalTecken;
     }
     static int antal_raderna(String args) {
-         String args1 = args;
-        return args1;
+        // String args1 = args;
+       // return args1;
 
     }
 
