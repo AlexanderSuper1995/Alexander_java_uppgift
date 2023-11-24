@@ -23,11 +23,11 @@ koll på antalet tecken
 har skrivit ordet stop eller inte får utföras i
 vilken av klasserna man vill
 Del 2 – fortsättning 2 - G
-#  är klar men bör bli flytat till USer klassen 
+#  är klar 
 
   Till programmet skall minst tre Junit-testfall
 skrivas
-# inte klarjag  nog blir nog på lördag
+# inte klar jag  nog blir nog på lördag
 
   Testfallen skall skilja sig märkvärt åt och testa
 olika delar av programmet
