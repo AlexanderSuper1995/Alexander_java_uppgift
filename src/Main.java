@@ -18,7 +18,7 @@ public class Main {
 
                 break;
             }
-
+            antalTecken = antalTecken + input.length();
         }
 
         System.out.println("Programmet har avslutats.");
