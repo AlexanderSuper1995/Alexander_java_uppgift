@@ -10,10 +10,10 @@ public class logik {
         antalTecken = antalTecken + summan;
         return antalTecken;
     }
-    static int antal_raderna(String args) {
+   // static int antal_raderna(String args) {
         // String args1 = args;
        // return args1;
 
-    }
+ //   }
 
 }
