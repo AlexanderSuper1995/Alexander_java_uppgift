@@ -17,18 +17,13 @@ public class Main {
 
             System.out.println(input);
             System.out.println("Programmet har avslutats.");
-            System.out.println("Antal rader (exklusive 'stop'): " + logik.antal_raderna(input));
+         //   System.out.println("Antal rader (exklusive 'stop'): " + logik.antal_raderna(input));
             System.out.println(logik.antalTecken(input));
 
         }
 
         System.out.println("Programmet har avslutats.");
-        scanner.close();
 
-
-
-
-        scanner.close();
     }
 
 }
