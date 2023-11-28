@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         logik statistics = new logik();
-
+        var statistics2 = new simpel_logik();
 
 
         System.out.println("Skriv in text rad för rad. Skriv 'stop' för att avsluta.");
@@ -12,6 +12,8 @@ public class Main {
         while (true) {
             String input = scanner.nextLine();
             statistics.updateStatistics(input);
+            statistics2.updateStatistics(input);
+
             System.out.println(input);
 
             if (input.equalsIgnoreCase("stop")) {
@@ -25,6 +27,12 @@ public class Main {
         System.out.println("Statistik:");
        System.out.println("Antal rader: " + statistics.getLineCount());
          System.out.println("Antal tecken: " + statistics.getCharacterCount());
+         // simpel logik
+        System.out.println("Antal rader: " + statistics2.lineCount);
+
+        System.out.println("Antal tecken: " + statistics2.characterCount);
+
+
         scanner.close();
     }
 }
