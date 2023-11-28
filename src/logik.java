@@ -12,7 +12,7 @@ public class logik  {
     }
     public void updateStatistics(String args) {
         lineCount++;
-        characterCount += args.length();
+        characterCount = characterCount + args.length();
 
 
     }

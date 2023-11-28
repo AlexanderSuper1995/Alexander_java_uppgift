@@ -2,15 +2,16 @@ package Test;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Scanner;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 class MainTest {
-// TEST FÖR STOP
+    private  int lineCount = 0;
+    private  int characterCount = 0;
+
+
+
+    // TEST FÖR STOP
     @Test
     void main() {
-        Scanner scanner = new Scanner(System.in);
+
 
         System.out.println("Skriv in text rad för rad. Skriv 'stop' för att avsluta.");
 
@@ -20,7 +21,7 @@ class MainTest {
             System.out.println(input);
 
             if (input.equalsIgnoreCase("stop")) {
-                break;
+                 break;
             }
         }
 
@@ -29,15 +30,41 @@ class MainTest {
     @Test
     void main2() {
 
+
+        System.out.println("Statistik:");
+
+        System.out.println("Antal rader: " );
+        System.out.println("Antal tecken: " );
+
+
     }
+
+
+
 
 
 
 
     @Test
-    void Logik3() {
+    public int getLineCount() {
+        return lineCount;
 
     }
 
+    @Test
+    public int getCharacterCount() {
+        return characterCount;
+
+    }
+
+
+    @Test
+    public  void updateStatistics() {
+
+       var test = new updateStatistics();
+
+
+
+    }
 
 }
