@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class MainTest {
     int characterCount = 0;
     int  lineCount = 0;
-    String args = "hej";
+    String args = "stop";
     // TEST FÖR STOP
     @Test
     void test1() {
@@ -23,8 +23,7 @@ class MainTest {
     @Test
     void test2() {
         lineCount++;
-        lineCount++;
-        lineCount++;
+
         System.out.println("Antal rader: " + lineCount);
 
 
@@ -44,5 +43,13 @@ class MainTest {
 
 
     }
-
+    @Test
+    public void updateStatistics() {
+        String args = new String();
+        characterCount = characterCount + args.length();
+    }
+    @Test
+    public void test_lineCount() {
+        lineCount++;
+    }
 }

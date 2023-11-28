@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        var statistics2 = new simpel_logik();
+        simpel_logik statistics2 = new simpel_logik();
         System.out.println("Skriv in text rad för rad. Skriv 'stop' för att avsluta.");
 
         while (true) {
