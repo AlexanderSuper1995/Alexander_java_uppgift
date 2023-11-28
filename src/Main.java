@@ -18,6 +18,10 @@ public class Main {
                 break;
             }
         }
+
+        // lägg tilll en print metod
+
+        // skapa  en enkle matte metod för alla varka ha det som empel for skiva tester
         System.out.println("Statistik:");
        System.out.println("Antal rader: " + statistics.getLineCount());
          System.out.println("Antal tecken: " + statistics.getCharacterCount());
