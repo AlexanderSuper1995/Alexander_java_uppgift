@@ -6,8 +6,7 @@ class MainTest {
 
 
     int expetad = 0;
-    int characterCount = 0;
-    int  lineCount = 0;
+
     // TEST FÖR STOP
     @Test
     void test_testar_stop_och_Count_line() {
@@ -28,7 +27,17 @@ class MainTest {
         }
 
     }
+    @Test
+    void medscanner() {
+        int expetad = 0;
+        int actual = 0;
+        expetad++;
+        actual++;
+        System.out.println("Antal rader: " + expetad);
 
+        assertEquals(actual, expetad);
+
+    }
     @Test
     void test2() {
         int expetad = 0;
@@ -47,6 +56,8 @@ class MainTest {
         var statistics2 = new MainTest();
         statistics2.updateStatistics();
         String args = "stop";
+        int characterCount = 0;
+        int  lineCount = 0;
         characterCount = characterCount + args.length();
         lineCount++;
         int actual = 1;
@@ -62,6 +73,7 @@ class MainTest {
     }
     @Test
     public void test_lineCount() {
+        int  lineCount = 0;
         lineCount++;
         int actual =0;
          actual++;
