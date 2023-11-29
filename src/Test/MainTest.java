@@ -32,10 +32,11 @@ class MainTest {
     @Test
     void test2() {
         int expetad = 0;
-        System.out.println("Antal rader: " + expetad);
        int actual = 0;
         expetad++;
         actual++;
+        System.out.println("Antal rader: " + expetad);
+
         assertEquals(actual, expetad);
 
     }
