@@ -4,11 +4,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MainTest {
 
-    int actual = 4;
+
     int expetad = 0;
     int characterCount = 0;
     int  lineCount = 0;
-    String args = "stop";
     // TEST FÖR STOP
     @Test
     void test_testar_stop_och_Count_line() {
@@ -20,6 +19,7 @@ class MainTest {
 
             System.out.println(input);
             if (input.equalsIgnoreCase("stop")) {
+                int actual = 4;
                 assertEquals(actual, expetad);
 
                 break;
@@ -45,6 +45,7 @@ class MainTest {
     void test4() {
         var statistics2 = new MainTest();
         statistics2.updateStatistics();
+        String args = "stop";
         characterCount = characterCount + args.length();
         lineCount++;
         int actual = 1;
