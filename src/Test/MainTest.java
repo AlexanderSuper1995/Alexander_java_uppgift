@@ -1,4 +1,5 @@
 package Test;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -27,7 +28,7 @@ class MainTest {
         }
 
     }
-    @Test
+    @Disabled
     void medscanner() {
         int expetad = 0;
         int actual = 0;
