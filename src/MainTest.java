@@ -9,7 +9,7 @@ class MainTest {
 
 @Test
  void testLineCount() {
-        logik logik = new logik();
+        var logik = new logik();
         int expected = 0;
         expected++;
         logik.lineCount();
@@ -23,10 +23,10 @@ class MainTest {
  void Test_class_() {
         var logik = new logik();
         int Start_CharacterCount = 0;
-        String testString = "This is a test.";
-        int expected = Start_CharacterCount + testString.length();
+        String test = "test.";
+        int expected = Start_CharacterCount + test.length();
 
-        logik.RadCount(testString);
+        logik.RadCount(test);
         int actual = logik.characterCount;
     System.out.println("expected "+expected);
 
@@ -38,9 +38,9 @@ class MainTest {
                 var Logic = new logik();
                 int Start_CharacterCount = 0;
 
-                String testString = "";
-                int expected = Start_CharacterCount + testString.length();
-                Logic.RadCount(testString);
+                String test = "";
+                int expected = Start_CharacterCount + test.length();
+                Logic.RadCount(test);
                 int actual = Logic.characterCount;
                System.out.println("expected "+expected);
                System.out.println("actual "+actual);
@@ -59,7 +59,7 @@ class MainTest {
 
     @Disabled
     public void testInput() {
-        var scannerOBjet = new Main();
+        var scanner = new Main();
 
         String input = "Stop";
         System.setIn(new ByteArrayInputStream(input.getBytes()));
