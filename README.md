@@ -39,3 +39,32 @@ tillgängligt på Github.
   Endast länk till ditt repo med koden behöver
 lämnas in för del 2
 # är klar
+
+
+#Del 3 - VG
+Vidareutveckla ditt program i del 2 så att
+programmet även gör följande:
+# inte klar
+
+Skriver ut antal ord (separerade med blanksteg)
+ Skriver ut det längsta ordet
+ Kontrollen om användaren har skrivit ordet stop
+eller inte måste ligga i den andra ”logik-klassen”
+# inte klar
+Del 3 - fortsättning - VG
+ Programmet skall fortfarande bestå av två
+klasser:
+# inte klar
+ En klass som läser in text och skriver ut
+resultatet till användaren
+ En annan klass som:
+ Räknar raderna, antal tecken och antal ord
+ Har koll på det längsta ordet
+ Har koll på om användaren har skrivit
+ordet stop eller inte
+# inte klar
+Del 3 – fortsättning 2 - VG
+Programmet skall fortfarande ha minst 3
+testfall och läggas upp på samma sätt i
+Github som i del 2
+# är klar

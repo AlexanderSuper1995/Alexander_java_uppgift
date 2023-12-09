@@ -1,7 +1,4 @@
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
-import java.io.ByteArrayInputStream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MainTest {
@@ -9,7 +6,7 @@ class MainTest {
 
 @Test
  void testLineCount() {
-        var logik = new logik();
+        logik logik = new logik();
         int expected = 0;
         expected++;
         logik.lineCount();
@@ -21,7 +18,7 @@ class MainTest {
 
 @Test
  void Test_class_() {
-        var logik = new logik();
+        logik logik = new logik();
         int Start_CharacterCount = 0;
         String test = "test.";
         int expected = Start_CharacterCount + test.length();
@@ -35,7 +32,7 @@ class MainTest {
         }
         @Test
          void Test_tom_Count() {
-                var Logic = new logik();
+                logik Logic = new logik();
                 int Start_CharacterCount = 0;
 
                 String test = "";
@@ -46,6 +43,23 @@ class MainTest {
                System.out.println("actual "+actual);
                 assertEquals( expected, actual);
         }
+    @Test
+    void bigCount() {
+        logik Logic = new logik();
+        int Start_CharacterCount = 0;
+
+        String test = "stop,Lorem ipsum dolor sit amet " +
+                "consectetur adipisicing elit. Officia dignissimos " +
+                "veritatis repellendus perspiciatis est incidunt quam aut ea " +
+                "dolorum mollitia officiis tenetur molestiae iure tempora," +
+                " voluptate doloribus voluptas reiciendis doloremque.";
+        int expected = Start_CharacterCount + test.length();
+        Logic.RadCount(test);
+        int actual = Logic.characterCount;
+        System.out.println("expected "+expected);
+        System.out.println("actual "+actual);
+        assertEquals( expected, actual);
+    }
         @Test
          void Test_print() {
                 System.out.println("Skriv in text rad för rad. Skriv 'stop' för att avsluta.");
@@ -57,23 +71,7 @@ class MainTest {
 
         }
 
-    @Disabled
-    public void testInput() {
-        var scanner = new Main();
 
-        String input = "Stop";
-        System.setIn(new ByteArrayInputStream(input.getBytes()));
-        assertEquals("", "Statistik\\h");
-    }
-
-       @Disabled
-       void main() {
-              System.out.println("Skriv in text rad för rad. Skriv 'stop' för att avsluta.");
-              var Main = new Main();
-
-              assertEquals( 0, 0);
-
-       }
 
 }
 

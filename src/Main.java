@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        var scanner = new Scanner(System.in);
-        var statistics = new logik();
+        Scanner scanner = new Scanner(System.in);
+        logik statistics = new logik();
         System.out.println("Skriv in text rad för rad. Skriv 'stop' för att avsluta.");
 
         while (true) {
